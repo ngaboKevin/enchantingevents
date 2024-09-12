@@ -1,0 +1,114 @@
+/* src/Dashboard.css */
+body{
+  background-color: rgb(255, 255, 255);
+}
+.dashboard-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin: 0px auto;
+  }
+  
+  .dashboard-div {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .submissions {
+    background-color: #4caf50; /* Green */
+  }
+  .submissions:hover {
+    background-color: #3d8b3f; /* Green */
+    transition-duration:250ms;
+    cursor: pointer;
+  }
+  
+  .subscribers {
+    background-color: #2196f3; /* Blue */
+  }
+  .subscribers:hover{
+    background-color: #1c7ecf;
+    transition-duration:250ms;
+    color:white;
+    cursor: pointer;
+  }
+  
+  .messages {
+    background-color: #f44336; /* Red */
+  }
+  .messages:hover {
+    background-color: #ce392e; /* Red */
+    transition-duration:250ms;
+    cursor: pointer;
+  }
+  
+  .reservations{
+    background-color: rgb(202, 68, 128);
+  }
+  .reservations:hover{
+    background-color: rgb(170, 51, 104);
+    transition-duration:250ms;
+    cursor: pointer;
+  }
+
+  .inquiries{
+    background-color: rgb(202, 144, 68);
+  }
+  .inquiries:hover{
+    background-color: rgb(179, 119, 41);
+    transition-duration:250ms;
+    cursor: pointer;
+  }
+
+  .suppliers{
+    background-color: rgb(122, 68, 202);
+  }
+  .suppliers:hover{
+    background-color: rgb(89, 43, 158);
+    transition-duration:250ms;
+    cursor: pointer;
+  }
+
+
+  .foot{
+    margin-top: 21%;
+  }
+  
+  .logout{
+    width: 30%; 
+  }
+
+  .point{
+    color: white;
+  }
+
+  .inquiries-table {
+    margin: 20px auto;
+    width: 80%;
+    border-collapse: collapse;
+  }
+  
+  .inquiries-table table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .inquiries-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .inquiry-details {
+    margin: 20px auto;
+    width: 80%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+  }
+  

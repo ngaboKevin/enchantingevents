@@ -1,0 +1,63 @@
+.navbar {
+  font-size: 10px;
+  display: flex;
+  font-weight: bolder;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  position: absolute; /* Position it within the carousel */;
+  top: 5;
+  left: 0;
+  width:95.5%;
+  z-index: 10; /* Ensure it stays on top of the carousel */
+  color: white;
+  background-color: #2D4651; /* Remove background color */
+  height: 5%;
+}
+
+.navbar-logo img {
+  width:150px;
+  
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-menu li {
+  position: relative;
+}
+
+.navbar-menu .link {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.navbar-menu .dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  background-color: #2D4651;
+  list-style: none;
+  padding: 10px;
+  border-radius: 0px;
+  width: 200px;
+}
+
+.navbar-menu .dropdown .link {
+  color: white;
+  display:flex;   
+  padding: 10px 20px
+}
+
+.navbar-menu li:hover .dropdown {
+  display: block;
+  color: #7CA86D; 
+}
+.navbar-menu .link:hover {
+  color: #7CA86D; 
+  transition-duration: 300ms;
+}

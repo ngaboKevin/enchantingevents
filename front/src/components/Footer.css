@@ -1,0 +1,140 @@
+.footer {
+    background-color: #2D4651;
+    color: white;
+    margin-top:10%;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+  }
+  
+  .footer-section h3 {
+    border-bottom: 2px solid #a4a4a4;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    color: white;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin: 10px 0;
+  }
+  
+  .footer-section ul li .link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-section ul li .link:hover {
+    color: #7CA86D; 
+    transition-duration: 300ms
+  }
+  
+  .footer-section .social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.5em;
+  }
+  
+  .footer-section .social-icons a:hover {
+    color: #ddd;
+  }
+  
+  .footer-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-section form input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 300px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .footer-section form button {
+    padding: 10px 20px;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .footer-section form button:hover {
+    background-color: #666;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    
+  }
+  .footer-header-contacts{
+    color: rgb(171, 171, 171);
+  }
+  
+  .footer-bottom-color{
+    color:rgb(171, 171, 171);
+  }
+/* src/SubscribeForm.css */
+.subscribe-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.subscribe-container h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.subscribe-container form {
+  display: flex;
+  flex-direction: row;
+}
+
+.subscribe-container input {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.subscribe-container button {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.subscribe-container button:hover {
+  background-color: #0056b3;
+}
+
+.subscribe-container p {
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #ff0000;
+}

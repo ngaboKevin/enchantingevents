@@ -1,0 +1,16 @@
+/* src/Partners.css */
+.partners-section {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.partners-section h2 {
+    margin-bottom: 40px;
+    font-size: 2rem;
+}
+
+.partners-section .slick-slide img {
+    max-width: 100px;
+    margin: 0 auto;
+}

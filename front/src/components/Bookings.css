@@ -1,0 +1,113 @@
+/* Reset some default styles */
+
+.container {
+  top:50%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  margin-top:7%;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 36px;
+  color: #333;
+  font-weight: 700;
+}
+
+form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+form h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #007BFF;
+  font-weight: 600;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+form input[type="text"],
+form input[type="date"],
+form input[type="number"],
+form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+form input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+form button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #218838;
+}
+
+.hotel-selection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.hotel-selection select {
+  width: calc(100% - 150px);
+}
+
+.hotel-selection img {
+  max-width: 150px;
+  max-height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-left: 20px;
+}
+
+.available-rooms {
+  margin-top: 20px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.available-rooms select {
+  width: 100%;
+}
+
+.payment-details {
+  margin-top: 20px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

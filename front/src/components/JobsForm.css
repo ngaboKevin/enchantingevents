@@ -1,0 +1,109 @@
+/* src/JobsPage.css */
+.jobs-page-container {
+  width: 50%;
+  margin-top:5%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .jobs-page-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .jobs-page-container p {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    position: relative;
+    margin-bottom: 15px;
+  }
+  
+  .form-group .required {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    color: red;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  .cv-upload {
+    width: 100%;
+    padding: 10px;
+    border: 1px dashed #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .cv-upload:hover {
+    border-color: #007bff;
+  }
+  .cvInput {
+    display: none;
+  }
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 5px;
+  }
+
+  .cv-upload-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .cv-upload {
+    width: 100%;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .cv-upload input[type="file"] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  

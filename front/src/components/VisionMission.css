@@ -1,0 +1,68 @@
+.vision-mission-section {
+    padding: 20px 10px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .vision-mission-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch; /* Ensure all items are stretched to the same height */
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  
+  .vision-mission-item {
+    flex: 1;
+    min-width: 100px;
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+  }
+  
+  .vision-mission-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(58, 58, 58, 0.2);
+  }
+  
+  .icon {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+    transition: color 0.3s;
+  }
+  
+  .vision-mission-item:hover .icon {
+    color: #90dc5a;
+  }
+  
+  h3 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    transition: color 0.3s;
+  }
+  
+  .vision-mission-item:hover h3 {
+    color: #78b54d;
+  }
+  
+  p {
+    font-size: 1em;
+    color: #666;
+    margin: 0; /* Ensure no extra margin */
+  }
+  
+  @media (min-width: 768px) {
+    .vision-mission-item {
+      height: 300px; /* Fixed height for larger screens */
+    }
+  }
+  
